@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TurkishDraughts.ConsoleApp\**" />
+    <EmbeddedResource Remove="TurkishDraughts.ConsoleApp\**" />
+    <None Remove="TurkishDraughts.ConsoleApp\**" />
+  </ItemGroup>
+
 </Project>

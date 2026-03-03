@@ -1,10 +1,16 @@
-﻿namespace TurkishDraughts.ConsoleApp
+﻿using TurkishDraughts.ConsoleApp.Game; // Wir brauchen Board und ConsoleRenderer
+
+namespace TurkishDraughts.ConsoleApp; // Projekt-Namespace
+
+internal class Program           // Hauptklasse
 {
-    internal class Program
+    static void Main(string[] args)             // Startpunkt des Programms
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Board board = new Board();          // Neues Brett erstellen
+        board.SetupInitialPosition();            // Startaufstellung setzen
+
+        ConsoleRenderer.Draw(board);            // Brett zeichnen
+
+        Console.ReadLine();             // Warten, damit Fenster offen bleibt
     }
 }

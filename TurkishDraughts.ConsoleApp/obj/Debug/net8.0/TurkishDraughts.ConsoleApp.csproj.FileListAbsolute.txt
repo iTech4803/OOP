@@ -1,0 +1,15 @@
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\bin\Debug\net8.0\TurkishDraughts.ConsoleApp.exe
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\bin\Debug\net8.0\TurkishDraughts.ConsoleApp.deps.json
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\bin\Debug\net8.0\TurkishDraughts.ConsoleApp.runtimeconfig.json
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\bin\Debug\net8.0\TurkishDraughts.ConsoleApp.dll
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\bin\Debug\net8.0\TurkishDraughts.ConsoleApp.pdb
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.AssemblyInfo.cs
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.sourcelink.json
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.dll
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\refint\TurkishDraughts.ConsoleApp.dll
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.pdb
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\TurkishDraughts.ConsoleApp.genruntimeconfig.cache
+C:\Users\SevimliSüleyman\source\repos\OOP\TurkishDraughts.ConsoleApp\obj\Debug\net8.0\ref\TurkishDraughts.ConsoleApp.dll
