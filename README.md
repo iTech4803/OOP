@@ -53,4 +53,4 @@ Ziel ist eine funktionierende, regelkonforme und nachvollziehbar dokumentierte K
 Dieses Projekt wird eigenständig im Rahmen der Ausbildung entwickelt.
 Regelmäßige Commits erfolgen über GitHub.
 
-Autor:Süleyman Sevimli
+Autor: Süleyman Sevimli
