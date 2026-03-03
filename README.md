@@ -1,4 +1,4 @@
-# Türkische Dame (C# Konsolenanwendung)
+# Türkische Dame 
 
 ## Projektbeschreibung
 
