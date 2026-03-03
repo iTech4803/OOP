@@ -1,5 +1,12 @@
 # Türkische Dame 
 
+## Projektstand – Tag 2
+
+- Spielfeld (8x8) implementiert
+- Startaufstellung gesetzt
+- Konsolenanzeige des Spielbretts umgesetzt
+- Projektstruktur in Models und Game getrennt
+
 ## Projektbeschreibung
 
 Im Rahmen meines Ausbildungsprojektes entwickle ich eine Konsolenanwendung in C#, welche das Brettspiel „Türkische Dame“ digital umsetzt.
