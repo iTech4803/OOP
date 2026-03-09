@@ -1,63 +1,109 @@
-# Türkische Dame 
-
-## Projektstand – Tag 2
-
-- Spielfeld (8x8) implementiert
-- Startaufstellung gesetzt
-- Konsolenanzeige des Spielbretts umgesetzt
-- Projektstruktur in Models und Game getrennt
+# Türkische Dame – Konsolenanwendung in C#
 
 ## Projektbeschreibung
 
-Im Rahmen meines Ausbildungsprojektes entwickle ich eine Konsolenanwendung in C#, welche das Brettspiel „Türkische Dame“ digital umsetzt.
+Dieses Projekt ist eine Konsolenanwendung in **C#**, in der das Brettspiel **Türkische Dame** umgesetzt wurde.  
+Das Spiel wird vollständig über die **Konsole** gespielt und basiert auf den grundlegenden Regeln der türkischen Dame.
 
-Das Ziel ist es, die grundlegenden Spielregeln korrekt abzubilden und dabei eine saubere objektorientierte Struktur zu verwenden.
-
-Das Spiel wird für zwei Spieler umgesetzt und läuft vollständig in der Konsole.
-
----
-
-## Spielprinzip
-
-- 8x8 Spielfeld
-- Zwei Spieler: Weiß und Schwarz
-- Jeder Spieler besitzt 16 Spielsteine
-- Bewegung nur horizontal oder vertikal (nicht diagonal)
-- Schlagen durch Überspringen eines gegnerischen Steins
-- Pflichtschlagen (wenn möglich)
-- Umwandlung zur Dame bei Erreichen der gegnerischen Grundreihe
-- Spielende, wenn ein Spieler keine Steine oder keine gültigen Züge mehr hat
+Ziel des Projekts war es, die **Grundlagen der objektorientierten Programmierung (OOP)** anzuwenden und ein strukturiertes Programm mit mehreren Klassen zu entwickeln.
 
 ---
 
-## Projektziel
+## Spielfunktionen
 
-Ziel ist eine funktionierende, regelkonforme und nachvollziehbar dokumentierte Konsolenanwendung.
+Das Programm unterstützt folgende Funktionen:
 
----
-
-## Start des Programms (geplant)
-
-1. Projekt in Visual Studio öffnen
-2. Konsole starten
-3. Züge eingeben (z.B. b2-b3 oder b2xb4)
-
----
-
-## Technische Umsetzung
-
-- Program → Einstiegspunkt
-- Game → Spiellogik
-- Board → Spielfeldverwaltung
-- Piece / Man / King → Spielfiguren
-- Move → Repräsentiert einen Spielzug
-- Rules → Enthält alle Spielregeln
+- Darstellung eines **8×8 Spielfelds** in der Konsole
+- Bewegung der Spielsteine über **Koordinaten-Eingabe**
+- **Normale Züge** (horizontal und vertikal)
+- **Schlagen gegnerischer Steine**
+- **Pflichtschlagen**
+- **Mehrfachschlagen**
+- **Umwandlung eines Steins zur Dame (King)**
+- **Spielende**, wenn ein Spieler keine Steine mehr besitzt
 
 ---
 
-## Hinweis
+## Spielregeln (Kurzfassung)
 
-Dieses Projekt wird eigenständig im Rahmen der Ausbildung entwickelt.
-Regelmäßige Commits erfolgen über GitHub.
+Das Spiel basiert auf den Regeln der **Türkischen Dame**.
 
-Autor: Süleyman Sevimli 
+- Das Spielfeld besteht aus **8 × 8 Feldern**
+- Jeder Spieler startet mit **16 Spielsteinen**
+- Steine bewegen sich **horizontal oder vertikal**
+- **Diagonale Bewegungen sind nicht erlaubt**
+- Wenn ein gegnerischer Stein übersprungen werden kann, muss dieser **geschlagen werden (Pflichtschlagen)**
+- Nach einem Schlag kann ein **Mehrfachschlag** folgen
+- Wenn ein Stein die gegenüberliegende Seite erreicht, wird er zur **Dame (King)**
+- Das Spiel endet, wenn ein Spieler **keine Steine mehr besitzt**
+
+---
+
+## Projektstruktur
+
+Das Projekt ist objektorientiert aufgebaut und besteht aus mehreren Klassen:
+
+| Klasse | Beschreibung |
+|------|------|
+| **Program** | Startpunkt der Anwendung |
+| **GameEngine** | Steuert den gesamten Spielablauf |
+| **Board** | Verwaltet das Spielfeld |
+| **Rules** | Überprüft die Spielregeln |
+| **ConsoleRenderer** | Zeigt das Spielfeld in der Konsole an |
+| **Move** | Beschreibt einen Spielzug |
+| **Piece** | Repräsentiert einen Spielstein |
+| **Position** | Speichert eine Position auf dem Spielfeld |
+| **PieceColor** | Definiert die Farbe eines Steins |
+| **PieceType** | Definiert den Typ eines Steins (normal / Dame) |
+
+---
+
+## Projektziele
+
+Das Projekt sollte folgende Lernziele erfüllen:
+
+- Anwendung von **Objektorientierung in C#**
+- Strukturierung eines Projekts in mehrere Klassen
+- Umsetzung von **Spiellogik und Regeln**
+- Verarbeitung von **Benutzereingaben**
+- Darstellung eines Spiels in der **Konsole**
+
+---
+
+## Starten des Programms
+
+1. Projekt in **Visual Studio öffnen**
+2. Projekt als **Startprojekt festlegen**
+3. Programm starten
+
+Das Spiel läuft vollständig in der **Konsole** und fragt die Spieler nach ihren Zügen.
+
+Beispiel für eine Eingabe:
+
+
+6 0 5 0
+
+
+Dies bewegt einen Stein von Position **(6,0)** nach **(5,0)**.
+
+---
+
+## Projektstatus
+
+Aktueller Stand des Projekts:
+
+✔ Spielfeld und Darstellung  
+✔ Spiellogik  
+✔ Normale Züge  
+✔ Schlaglogik  
+✔ Pflichtschlagen  
+✔ Mehrfachschläge  
+✔ Umwandlung zur Dame  
+✔ Gewinnerkennung  
+
+---
+
+Projekt erstellt von:
+
+**Süleyman Sevimli**
+
