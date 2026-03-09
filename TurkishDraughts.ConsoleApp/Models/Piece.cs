@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TurkishDraughts.ConsoleApp.Models
 {
-
-    public class Piece                       // Klasse Spielsteine
+    public class Piece     // Die Klasse Piece beschreibt einen einzelnen Spielstein mit zwei Eigenschaften:
+                           // Farbe w/s; Typ normal oder Dame/King
     {
-        public PieceColor Color { get; }    // Jeder Stein hat eine Farbe.
-                                            //get:
-                                            //Man darf die Farbe lesen, aber später nicht verändern.
-                                            //Ein schwarzer Stein bleibt schwarz.
+        public PieceColor Color {get;}      // Color speichert die Farbe des Spielsteins. PieceColor ist ein Enum (z.B. White oder Black).
+        public PieceType Type {get; set;}   // Type speichert den Typ des Steins.PieceType ist ebenfalls ein Enum (Man oder King).
+                                              // - get  -> Wert kann gelesen werden
+                                              // - set  -> Wert kann verändert werden
+                                              // wichtig, weil ein normaler Stein später zur Dame werden kann.
+        public Piece(PieceColor color)   // Konstruktor der Klasse Piece.Automatisch ausfegührt,
+                                         // wenn ein neuer Spielstein erstellt wird.
 
-        public Piece(PieceColor color)   // Konstruktor; wird aufgerufen wenn wir einen neuen Stein erstellen.
         {
-            Color = color;              // Hier speichern wir die Farbe im Stein ab.
-                                        // Wenn wir sagen new Piece(PieceColor.Black), wird der Stein schwarz.
+            Color = color; //Farbe
+            Type = PieceType.Man;       // Jeder Stein startet als normaler Stein (Man).
+
         }
     }
 }

@@ -3,27 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TurkishDraughts.ConsoleApp.Models; // Damit wir Piece und PieceColor kennen
-
-
-namespace TurkishDraughts.ConsoleApp.Game;        // Wir sortieren den Code in den Bereich "Game" (Spielteil)
-                                                  //ConsoleRenderer ist nur da, um das Spielfeld schön in der Konsole zu zeichnen. 
-public static class ConsoleRenderer             // static = nur Hilfsfunktionen, keine Objekte nötig;Man muss kein Objekt erstellen
-                                                // wie new ConsoleRenderer()sondern kann direkt schreiben: ConsoleRenderer.Draw(board);
+using TurkishDraughts.ConsoleApp.Models; 
+namespace TurkishDraughts.ConsoleApp.Game;       
+public static class ConsoleRenderer             
 {
     public static void Draw(Board board)        // Zeichnet das Brett in die Konsole; public = andere Dateien dürfen darauf zugreifen
-                                                 //Du gibst dieser Funktion ein Brett (board) mit.
-                                                 //Die Funktion zeichnet genau das Brett, das du übergibst.
-
-
+                                                 //Dieser Funktion gibt man ein Brett (board) mit.
     {   
         Console.Clear();                    //Löscht alles, was vorher im Fenster stand;
                                             //Damit wird das Konsolenfenster komplett leer gemacht, bevor neu gezeichnet wird.
-
-        Console.WriteLine("Türkische Dame");        // Titel 
-        Console.WriteLine("W = Weiß, B = Schwarz, . = leer");            // Legende: welche Zeichen was bedeuten
-        Console.WriteLine();                         //  Leerzeile für bessere Lesbarkeit
-
+        Console.WriteLine("Türkische Dame Old Style");     
+        Console.WriteLine("W = Weiß, B = Schwarz, . = leer");            
+        Console.WriteLine();                     
 
         // ====== Spaltennummern oben ausgeben (0 bis 7) ======
         Console.Write("   ");                   // Abstand links für Zeilennummern;3 Leerzeichen, damit die Zahlen
@@ -33,10 +24,10 @@ public static class ConsoleRenderer             // static = nur Hilfsfunktionen,
         {
             Console.Write(col + " ");       // Spaltennummer ausgeben(ohne neue Zeile);Board.Size ist 8 → also 0..7.
         }       
-        Console.WriteLine();            // Console.Write schreibt ohne Zeilenumbruch.
-                                        //Ergebnis: Oben steht: 0 1 2 3 4 5 6 7
+        Console.WriteLine();             //Ergebnis: Oben steht: 0 1 2 3 4 5 6 7
 
-        // ====== Jetzt das Brett Zeile für Zeile ausgeben ======
+
+        // ====== Zeilennumer.Jetzt das Brett Zeile für Zeile ausgeben ======
         for (int row = 0; row < Board.Size; row++)           // row läuft von 0 bis 7;
         {
             Console.Write(row + "  ");              // Links wird die Zeilennummer geschrieben (damit man Koordinaten erkennt).
@@ -63,7 +54,7 @@ public static class ConsoleRenderer             // static = nur Hilfsfunktionen,
             Console.WriteLine();         // Danach geht es in die nächste Zeile, sonst wäre alles in einer Zeile.
         }
 
-        Console.WriteLine();                 // Leerzeile
+        Console.WriteLine();                 
         Console.WriteLine("Enter drücken zum Beenden...");          // Hinweis
     }
 }

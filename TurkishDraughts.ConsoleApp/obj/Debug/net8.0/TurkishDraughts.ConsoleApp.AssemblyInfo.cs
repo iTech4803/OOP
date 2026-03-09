@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurkishDraughts.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+572655e813c05c7607197cb27250c6ba66410d28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4957085a5eefc93fbdce853524e410a18e5335c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurkishDraughts.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurkishDraughts.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

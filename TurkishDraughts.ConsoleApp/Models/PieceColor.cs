@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace TurkishDraughts.ConsoleApp.Models
 {
-    public enum PieceColor   // eine feste Liste von erlaubten Werten.
-                            //Wir wollen nur zwei Farben erlauben – nichts anderes.
+    public enum PieceColor    // enum = "Enumeration"= feste Liste von erlaubten Werten
+                              // Dadurch können wir nur bestimmte Werte verwenden. In diesem Fall: nur zwei Farben für Spielsteine.
     {
-        White,               // Weißer Spieler
-        Black               // Schwarzer Spieler
-    }                       //Ein Spielstein darf nur Weiß oder Schwarz sein =Das verhindert Fehler wie „Rot“ oder „Blau“
+        White,        // Weißer Spieler / weißer Spielstein
+        Black        // Schwarzer Spieler / schwarzer Spielstein
+
+    }
 }
-
-
-
-
-
